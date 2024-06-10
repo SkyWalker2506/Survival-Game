@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594c97602d9c9e444a4c63c3d97a07fb, type: 3}
+  m_Name: PlayerMovementProfile_Default
+  m_EditorClassIdentifier: 
+  CoreMovement:
+    Gravity: 20
+    Acceleration: 9
+    Damping: 10
+    AirborneControl: 0.15
+    StepLength: 1.3
+    ForwardSpeed: 2.75
+    BackSpeed: 2.25
+    SideSpeed: 2.6
+    SlopeSpeedMult:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.99938357
+        value: 0.8506599
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AntiBumpFactor: 0.05
+    HeadBounceFactor: 0.8
+  RunState:
+    Enabled: 1
+    SpeedMultiplier: 5.5
+    StepLength: 1.95
+  CrouchState:
+    Enabled: 1
+    SpeedMultiplier: 0.65
+    StepLength: 0.85
+    ControllerHeight: 1.1
+    TransitionDuration: 0.3
+  ProneState:
+    Enabled: 1
+    SpeedMultiplier: 0.35
+    StepLength: 0.6
+    ControllerHeight: 0.8
+    TransitionDuration: 0.5
+  Jumping:
+    Enabled: 1
+    JumpHeight: 1
+    JumpTimer: 0.1
+  Sliding:
+    SlopeSlide: 1
+    SlopeSlideTreeshold: 35
+    SlopeSlideSpeed: 1
+    CrouchSlide: 1
+    CrouchSlideSpeedThreshold: 5.2
