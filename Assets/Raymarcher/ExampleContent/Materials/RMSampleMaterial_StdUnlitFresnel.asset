@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6927ae4036a15bc4db445e2ce0220c6d, type: 3}
+  m_Name: RMSampleMaterial_StdUnlitFresnel
+  m_EditorClassIdentifier: 
+  isGlobalMaterial: 1
+  displayGlobalFeatureDependencies: 1
+  colorOverrideSettings:
+    useColorOverride: 0
+    colorOverride: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    colorIntensity: 1
+    colorBlend: 1
+  textureSettings:
+    useTriplanarTexture: 0
+    mainAlbedo: {fileID: 0}
+    mainAlbedoTiling: 0.2
+    mainAlbedoTriplanarBlend: 15
+    mainAlbedoOpacity: 0.5
+  normalSettings:
+    normalShift: 0.05
+  fresnelSettings:
+    useFresnel: 1
+    fresnelCoverage: 0.99
+    fresnelDensity: 16
+    fresnelColor: {r: 1, g: 0, b: 0.07972431, a: 1}
