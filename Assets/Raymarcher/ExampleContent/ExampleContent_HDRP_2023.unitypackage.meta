@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd6e772eb771cad47b58848a11f0fc8a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/ExampleContent/ExampleContent_HDRP_2023.unitypackage
+  uploadId: 652502

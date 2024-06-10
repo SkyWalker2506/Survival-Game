@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 288d6017d2bd76c468003aa09a7d854f
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Toolkit/Intern/Shaders/Resources/RMTex3DMeshPrinterCompute.compute
+  uploadId: 652502

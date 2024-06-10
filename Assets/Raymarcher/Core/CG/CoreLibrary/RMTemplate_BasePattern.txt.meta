@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 07898aa9b7a4f48409d84607b31d1ad0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/CG/CoreLibrary/RMTemplate_BasePattern.txt
+  uploadId: 652502

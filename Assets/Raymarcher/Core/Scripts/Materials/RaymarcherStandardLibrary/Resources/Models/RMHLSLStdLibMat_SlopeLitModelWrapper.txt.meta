@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c42a9dbee93c724a921e00e8e35e1cf
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/Models/RMHLSLStdLibMat_SlopeLitModelWrapper.txt
+  uploadId: 652502

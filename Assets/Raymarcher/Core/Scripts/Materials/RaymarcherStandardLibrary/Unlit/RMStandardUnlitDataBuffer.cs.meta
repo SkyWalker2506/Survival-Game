@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fc5ff01eabb0a3d428f9428ff26def1e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Unlit/RMStandardUnlitDataBuffer.cs
+  uploadId: 652502

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3dad370990d4f7c4e91fdb009cbe8b44
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Sdfs/SdfModifiers/TargetOperations/RMModifier_Blend.cs
+  uploadId: 652502

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7e786d0160b47944b8fc4c0d2ec8a8d2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/SlopeLit/RMStandardSlopeLitIdentifier.cs
+  uploadId: 652502

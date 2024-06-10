@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 11f5b9aff596e654882fa32cbd869821
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/CG/CoreLibrary/RMHLSL_Input.cginc
+  uploadId: 652502

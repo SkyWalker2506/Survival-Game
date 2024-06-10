@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 189d19347d0ddd247b9c2f386a88bf7f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Convertor/RMConvertorSdfObjectBuffer.cs
+  uploadId: 652502

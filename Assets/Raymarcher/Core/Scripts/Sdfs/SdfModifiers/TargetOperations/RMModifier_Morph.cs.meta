@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 39c4b29bfd0d0c846a30a0ada4baaa0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Sdfs/SdfModifiers/TargetOperations/RMModifier_Morph.cs
+  uploadId: 652502

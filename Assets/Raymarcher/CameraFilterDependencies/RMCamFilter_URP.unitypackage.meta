@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e966fc7f97568684e9046622a8740858
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/CameraFilterDependencies/RMCamFilter_URP.unitypackage
+  uploadId: 652502

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 380f5ca1b1472cb4b9a023356ba5375e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/RMHLSLStdLibMat_Reflections.txt
+  uploadId: 652502

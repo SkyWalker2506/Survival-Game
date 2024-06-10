@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 813aed39020d4824db471d478c41a517
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Toolkit/Intern/Editor/RMVolumeMeshSliceRendererEditor.cs
+  uploadId: 652502

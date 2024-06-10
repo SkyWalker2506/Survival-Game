@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1023956b2a639b4ea983d6bc4ec4eb7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/Models/RMHLSLStdLibMat_VolNoiseModelWrapper.txt
+  uploadId: 652502

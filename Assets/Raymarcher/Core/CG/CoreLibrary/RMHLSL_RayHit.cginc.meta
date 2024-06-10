@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1a9d1c2139401ad468dbc70814554bad
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/CG/CoreLibrary/RMHLSL_RayHit.cginc
+  uploadId: 652502

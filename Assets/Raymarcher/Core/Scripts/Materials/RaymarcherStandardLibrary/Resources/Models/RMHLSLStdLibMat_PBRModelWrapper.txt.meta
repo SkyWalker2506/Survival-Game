@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 026f866e8bce89442b5f289a34b4880e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/Models/RMHLSLStdLibMat_PBRModelWrapper.txt
+  uploadId: 652502

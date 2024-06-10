@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 35ba4e89719f55546bb04bcf78c5330c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/CG/CoreLibrary/RMHLSL_RenderBase.cginc
+  uploadId: 652502

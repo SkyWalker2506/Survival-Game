@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f1025a25177106e4d83ef45c68e40b16
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Toolkit/Intern/Shaders/Resources/RMTex3DPointCollisionSamplerCompute.compute
+  uploadId: 652502

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89d114c3f4402da4280b44b4fbbf1a22
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/Models/RMHLSLStdLibMat_MobileSLitModelWrapper.txt
+  uploadId: 652502

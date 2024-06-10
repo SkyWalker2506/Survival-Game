@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 356fc9bfcfb54da44ad48d4607f748b2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/RaymarcherDocumentation.pdf
+  uploadId: 652502

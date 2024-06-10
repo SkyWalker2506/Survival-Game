@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 19508c92ea8059349bc8fcb1e882586c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/CameraFilterDependencies/RMCamFilter_HDRP.unitypackage
+  uploadId: 652502

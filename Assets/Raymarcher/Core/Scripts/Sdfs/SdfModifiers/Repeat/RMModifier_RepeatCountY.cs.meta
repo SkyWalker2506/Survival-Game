@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: faa84976eaf996d45ab1c9664441fb9b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Sdfs/SdfModifiers/Repeat/RMModifier_RepeatCountY.cs
+  uploadId: 652502

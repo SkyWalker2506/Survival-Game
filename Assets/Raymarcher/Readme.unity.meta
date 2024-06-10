@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80ffc55e79c0ccc47b93ab1797c58091
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Readme.unity
+  uploadId: 652502

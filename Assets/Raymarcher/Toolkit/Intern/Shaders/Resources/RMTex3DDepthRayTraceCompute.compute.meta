@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9f22023f06f4b5349a1c3fbaf137a549
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Toolkit/Intern/Shaders/Resources/RMTex3DDepthRayTraceCompute.compute
+  uploadId: 652502

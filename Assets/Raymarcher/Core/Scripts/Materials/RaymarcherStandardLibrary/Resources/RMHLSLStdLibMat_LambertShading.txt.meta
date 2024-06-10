@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 16084fcbaad711c4884bf57278fb8404
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/Scripts/Materials/RaymarcherStandardLibrary/Resources/RMHLSLStdLibMat_LambertShading.txt
+  uploadId: 652502

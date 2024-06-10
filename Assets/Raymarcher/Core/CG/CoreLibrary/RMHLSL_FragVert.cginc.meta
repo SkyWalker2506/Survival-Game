@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d3c7fa85b18128840b6d0a85eaa9e856
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168069
+  packageName: Raymarcher
+  packageVersion: 3.0.0
+  assetPath: Assets/Raymarcher/Core/CG/CoreLibrary/RMHLSL_FragVert.cginc
+  uploadId: 652502
