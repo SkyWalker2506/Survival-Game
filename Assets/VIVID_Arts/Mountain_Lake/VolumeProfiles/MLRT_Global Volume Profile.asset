@@ -205,7 +205,7 @@ MonoBehaviour:
     m_Value: 0.15
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 4
 --- !u!114 &-4534827307019939185
 MonoBehaviour:
   m_ObjectHideFlags: 3
