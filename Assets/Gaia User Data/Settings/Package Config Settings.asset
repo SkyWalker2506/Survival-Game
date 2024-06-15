@@ -67,3 +67,9 @@ MonoBehaviour:
     m_minorVersion: 0
     m_patchVersion: 8
     m_installTimeStamp: 1718473219700
+  - m_packageID: GaiaProAssetsandBiomes
+    m_lastAction: 1
+    m_majorVersion: 4
+    m_minorVersion: 0
+    m_patchVersion: 8
+    m_installTimeStamp: 1718474791546

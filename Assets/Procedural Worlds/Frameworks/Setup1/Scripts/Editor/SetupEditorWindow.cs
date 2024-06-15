@@ -108,11 +108,11 @@ namespace ProceduralWorlds.Setup
 
         private bool SetPipelineDefines()
         {
-            if (GraphicsSettings.defaultRenderPipeline == null)
+            if (GraphicsSettings.renderPipelineAsset == null)
             {
                 return SetScriptingDefinesBuiltIn();
             }
-            else if (GraphicsSettings.defaultRenderPipeline.GetType().ToString().Contains("HDRenderPipelineAsset"))
+            else if (GraphicsSettings.renderPipelineAsset.GetType().ToString().Contains("HDRenderPipelineAsset"))
             {
                 return SetScriptingDefinesHDRP();
             }
