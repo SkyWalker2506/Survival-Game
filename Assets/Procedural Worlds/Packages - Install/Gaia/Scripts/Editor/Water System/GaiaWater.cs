@@ -1552,7 +1552,7 @@ namespace Gaia
             }
 
 #if HDPipeline
-            HDRenderPipelineAsset pipelineAsset = GraphicsSettings.renderPipelineAsset as HDRenderPipelineAsset;
+            HDRenderPipelineAsset pipelineAsset = GraphicsSettings.defaultRenderPipeline as HDRenderPipelineAsset;
             if (pipelineAsset != null)
             {
                 GaiaConstants.GaiaProWaterReflectionsQuality currentRes = profile.m_reflectionResolution;

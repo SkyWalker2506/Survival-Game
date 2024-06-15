@@ -6408,9 +6408,9 @@ namespace Gaia
                                     //Planet
                                     if (setAllDefaults)
                                     {
-                                        physicallyBasedSky.planetaryRadius.value = 6378100f;
-                                        physicallyBasedSky.sphericalMode.value = true;
-                                        physicallyBasedSky.planetCenterPosition.value = new Vector3(0f, -6378100f, 0f);
+                                        //physicallyBasedSky.planetaryRadius.value = 6378100f;
+                                        //physicallyBasedSky.sphericalMode.value = true;
+                                        //physicallyBasedSky.planetCenterPosition.value = new Vector3(0f, -6378100f, 0f);
                                         physicallyBasedSky.planetRotation.value = new Vector3(0f, 0f, 0f);
                                         physicallyBasedSky.groundColorTexture.value = null;
                                         physicallyBasedSky.groundTint.value = GaiaUtils.GetColorFromHTML("B1B1B1");

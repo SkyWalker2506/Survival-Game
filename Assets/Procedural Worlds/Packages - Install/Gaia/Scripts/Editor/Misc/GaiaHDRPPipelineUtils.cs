@@ -182,7 +182,7 @@ namespace Gaia.Pipeline.HDRP
             //    }
             //}
 
-            if (GraphicsSettings.renderPipelineAsset == null)
+            if (GraphicsSettings.defaultRenderPipeline == null)
             {
                 try
                 {
@@ -198,7 +198,7 @@ namespace Gaia.Pipeline.HDRP
                         //No mapping? This is most likely a new, untested unity version. Try latest entry in this case since this is most likely to work.
                         pipelineAssetName = profile.m_highDefinitionPipelineProfiles.Last().m_pipelineAssetName;
                     }
-                    GraphicsSettings.renderPipelineAsset = AssetDatabase.LoadAssetAtPath<RenderPipelineAsset>(GaiaUtils.GetAssetPath(pipelineAssetName + GaiaConstants.gaiaFileFormatAsset));
+                    GraphicsSettings.defaultRenderPipeline = AssetDatabase.LoadAssetAtPath<RenderPipelineAsset>(GaiaUtils.GetAssetPath(pipelineAssetName + GaiaConstants.gaiaFileFormatAsset));
 
                     int originalQualitySettingsLevel = QualitySettings.GetQualityLevel();
                     try
@@ -350,7 +350,7 @@ namespace Gaia.Pipeline.HDRP
                     }
                 }*/
 
-                GraphicsSettings.renderPipelineAsset = null;
+                GraphicsSettings.defaultRenderPipeline = null;
 
                 //GaiaUtils.GetRuntimeSceneObject();
                 //GaiaLighting.GetProfile(gaiaSettings.m_gaiaLightingProfile, gaiaSettings.m_pipelineProfile, GaiaConstants.EnvironmentRenderer.BuiltIn, true);
@@ -1316,8 +1316,8 @@ namespace Gaia.Pipeline.HDRP
                                             physicallyBasedSky.active = true;
 
                                             //Geometry
-                                            physicallyBasedSky.planetaryRadius.value = profile.m_hDPBSPlanetaryRadius;
-                                            physicallyBasedSky.planetCenterPosition.value = profile.m_hDPBSPlantetCenterPosition;
+                                            //physicallyBasedSky.planetaryRadius.value = profile.m_hDPBSPlanetaryRadius;
+                                            //physicallyBasedSky.planetCenterPosition.value = profile.m_hDPBSPlantetCenterPosition;
                                             //Air
                                             //physicallyBasedSky.airDensityR.value = profile.m_hDPBSAirOpacity.r;
                                             //physicallyBasedSky.airDensityG.value = profile.m_hDPBSAirOpacity.g;

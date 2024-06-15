@@ -238,9 +238,9 @@ namespace Gaia.Pipeline.HDRP
             {
                 if (sourceProfile.TryGet(out PhysicallyBasedSky physicallyBasedSkySource))
                 {
-                    physicallyBasedSkySource.planetaryRadius.value = physicallyBasedSkyScene.planetaryRadius.value;
-                    physicallyBasedSkySource.sphericalMode.value = physicallyBasedSkyScene.sphericalMode.value;
-                    physicallyBasedSkySource.planetCenterPosition.value = physicallyBasedSkyScene.planetCenterPosition.value;
+                    //physicallyBasedSkySource.planetaryRadius.value = physicallyBasedSkyScene.planetaryRadius.value;
+                    //physicallyBasedSkySource.sphericalMode.value = physicallyBasedSkyScene.sphericalMode.value;
+                    //physicallyBasedSkySource.planetCenterPosition.value = physicallyBasedSkyScene.planetCenterPosition.value;
                     physicallyBasedSkySource.planetRotation.value = physicallyBasedSkyScene.planetRotation.value;
                     physicallyBasedSkySource.groundColorTexture.value = physicallyBasedSkyScene.groundColorTexture.value;
                     physicallyBasedSkySource.groundTint.value = physicallyBasedSkyScene.groundTint.value;
