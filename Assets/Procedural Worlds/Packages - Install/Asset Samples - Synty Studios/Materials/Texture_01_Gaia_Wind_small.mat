@@ -8,20 +8,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Texture_01_Gaia_Wind_small
-  m_Shader: {fileID: 4800000, guid: 676d51a93fad6434bb7ee1f64ad89551, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 26e13b92150b60542b5039846beee74c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR_TRANSPARENT
   - _PW_SF_COVER_ON
   - _PW_SF_WIND_ON
   m_InvalidKeywords:
   - _ALPHATEST_OFF
-  - _DISABLE_DECALS
-  - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2255
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -97,9 +97,13 @@ Material:
     - _DiffusionProfile: 2.2732565
     - _DoubleSidedGIMode: 0
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
     - _Glossiness: 0.2
+    - _MaterialID: 1
+    - _MaterialTypeMask: 2
     - _Metallic: 0
     - _OpaqueCullMode: 2
     - _PW_Cover: 0
@@ -144,6 +148,7 @@ Material:
     - _PW_WindToggle: 0
     - _PW_WorldMapToggle: 0
     - _PW_WorldMapUVScale: 1
+    - _PerPixelSorting: 0
     - _QueueControl: -1
     - _QueueOffset: 0
     - _RayTracing: 1
@@ -165,6 +170,7 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 0
     - _SurfaceType: 0
+    - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -180,8 +186,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfile_Asset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38,
-        a: 6.8169325e-31}
+    - _DiffusionProfile_Asset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38, a: 6.8169325e-31}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _PW_CoverLayer0Color: {r: 1, g: 1, b: 1, a: 1}
     - _PW_CoverLayer1Color: {r: 1, g: 1, b: 1, a: 1}
@@ -193,6 +198,7 @@ Material:
     - _PW_WorldMapColorCover1: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WorldMapColorObject: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &698376249703311982
 MonoBehaviour:
   m_ObjectHideFlags: 11
