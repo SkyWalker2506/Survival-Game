@@ -28,7 +28,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    supportVolumetricClouds: 0
+    supportVolumetricClouds: 1
     supportLightLayers: 0
     renderingLayerMaskBuffer: 0
     supportWater: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
     supportDataDrivenLensFlare: 1
     supportDitheringCrossFade: 1
     supportRuntimeAOVAPI: 0
-    supportTerrainHole: 0
+    supportTerrainHole: 1
     lightProbeSystem: 0
     oldLightProbeSystem: 0
     probeVolumeMemoryBudget: 1024
@@ -307,7 +307,7 @@ MonoBehaviour:
       - 0.666
       - 0.5
     gpuResidentDrawerSettings:
-      mode: 1
+      mode: 0
       smallMeshScreenPercentage: 1
       enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 1
