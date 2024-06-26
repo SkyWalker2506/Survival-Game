@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7175398021303036338}
   - component: {fileID: -3956735032111250296}
   - component: {fileID: -6211448534593624900}
+  - component: {fileID: 5749100363960803835}
   m_Layer: 0
   m_Name: RedBlob
   m_TagString: Untagged
@@ -50,10 +51,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MotionType: 3
-  Speed: 3.5
+  Speed: 5
   Acceleration: 8
   AngularSpeed: 120
-  StoppingDistance: 0
+  StoppingDistance: 1
   AutoBreaking: 1
   m_Layers: 1
 --- !u!114 &-4360333603742120830
@@ -123,6 +124,25 @@ MonoBehaviour:
   BlockedStop: 0
   UseWalls: 0
   m_Layers: -1
+--- !u!114 &5749100363960803835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010206441563009151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a4cd4cbf6cf044887ce5ff1955fa9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HiveMindStop:
+    Enabled: 0
+    Radius: 2
+  m_GiveUpStop:
+    Enabled: 1
+    FatigueSpeed: 0.1
+    RecoverySpeed: 0.4
 --- !u!1 &6830697395298807692
 GameObject:
   m_ObjectHideFlags: 0
