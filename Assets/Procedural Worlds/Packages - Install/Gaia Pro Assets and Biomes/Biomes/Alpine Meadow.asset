@@ -49,61 +49,49 @@ MonoBehaviour:
   m_orderNumber: 0
   m_spawnerPresetList:
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: f402506cf81eade4db78bf3a9424c0c9,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: f402506cf81eade4db78bf3a9424c0c9, type: 2}
     m_isActiveInStamper: 1
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: 42783e224555be04a8da9de392846bec,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: 42783e224555be04a8da9de392846bec, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: b70ff2238fa761d45972eec9c6f1d5aa,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: b70ff2238fa761d45972eec9c6f1d5aa, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: b6cfb189c3611fb40b0a167081f1ab97,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: b6cfb189c3611fb40b0a167081f1ab97, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: 7722acf9c4dbfb14cabee545865ad0ab,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: 7722acf9c4dbfb14cabee545865ad0ab, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: f85557db875af4849b292543407ea898,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: f85557db875af4849b292543407ea898, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: f1ea5361521a58e4bbfb6d7264e82b1f,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: f1ea5361521a58e4bbfb6d7264e82b1f, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: c451d9a08124d3f4f99001825979727f,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: c451d9a08124d3f4f99001825979727f, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: b0c2bc14ce5ea6d4aab2bc8d3b1b874e,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: b0c2bc14ce5ea6d4aab2bc8d3b1b874e, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: 37acf57db6e69424fb7cb8b5727c8858,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: 37acf57db6e69424fb7cb8b5727c8858, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   - m_autoAssignPrototypes: 1
-    m_spawnerSettings: {fileID: 11400000, guid: 534fd92567de8714c91a6ff6438f6e78,
-      type: 2}
+    m_spawnerSettings: {fileID: 11400000, guid: 534fd92567de8714c91a6ff6438f6e78, type: 2}
     m_isActiveInStamper: 0
     m_isActiveInBiome: 1
   m_biomeControllerSettings: {fileID: -521598383891875996}
   m_postProcessingProfileGUID: 
-  m_gaiaSceneCullingProfile: {fileID: 11400000, guid: c832f088050d7034a98eadb4b979dfeb,
-    type: 2}
+  m_gaiaSceneCullingProfile: {fileID: 11400000, guid: c832f088050d7034a98eadb4b979dfeb, type: 2}
