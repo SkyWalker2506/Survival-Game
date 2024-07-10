@@ -1,22 +1,28 @@
-using ProjectDawn.Player.ComponentData;
+using ECM2.Examples.FirstPerson;
 using Unity.Burst;
 using Unity.Entities;
-using Unity.Transforms;
+using Unity.Mathematics;
+using UnityEngine;
 
 
 namespace ProjectDawn.Player.System
 {
     [BurstCompile]
-    public partial struct PlayerSystem : ISystem
+    public partial class PlayerSystem : SystemBase
     {
-        
+        public bool IsPositionSet;
+        public float3 PlayerPosition;
+        Transform playerTransform;
+
         [BurstCompile]
-        public void OnUpdate(ref SystemState state)
+        protected override void OnUpdate()
         {
-            foreach (var (localTransform, playerData) in SystemAPI.Query<RefRO<LocalTransform>, RefRW<PlayerData>>())
-            {
-                playerData.ValueRW.Position = localTransform.ValueRO.Position;
-            }
+            if(playerTransform == null)
+            playerTransform = Object.FindAnyObjectByType<FirstPersonCharacter>().transform;
+            if(playerTransform == null)
+                return;
+            PlayerPosition = playerTransform.position;
+            IsPositionSet = true;
         }
     }
 }
