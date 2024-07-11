@@ -3,6 +3,8 @@ namespace ProjectDawn.Enemy.ComponentData
 {
     public struct AttackToPlayerState : IComponentData, IEnableableComponent
     {
+        public float StopToAttackDistance; 
+
     }
     
 }

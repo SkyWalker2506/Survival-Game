@@ -2,7 +2,6 @@ using ProjectDawn.Enemy.ComponentData;
 using ProjectDawn.Navigation;
 using Unity.Burst;
 using Unity.Entities;
-using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 
@@ -16,19 +15,19 @@ namespace ProjectDawn.Enemy.System
 
         public void Execute(Entity entity, FollowPlayerState followPlayerState, AgentBody agentBody, LocalTransform localTransform,[ChunkIndexInQuery]int chunkIndex)
         {
-            if (math.distance(localTransform.Position, PlayerPosition) > followPlayerState.MaxDistanceToFollow)
+            if (math.distance(localTransform.Position, PlayerPosition) > followPlayerState.StopToFollowDistance)
             {
-                agentBody.SetDestination(PlayerPosition);
+                agentBody.Stop();
+                ECB.SetComponentEnabled<FollowPlayerState>(chunkIndex,entity, false);
+                ECB.SetComponentEnabled<SearchPlayerState>(chunkIndex,entity, true);
             }
-            else
+            else if (math.distance(localTransform.Position, PlayerPosition) < followPlayerState.StartToAttackDistance)  
             {
                 agentBody.Stop();
                 ECB.SetComponentEnabled<FollowPlayerState>(chunkIndex,entity, false);
                 ECB.SetComponentEnabled<AttackToPlayerState>(chunkIndex,entity, true);
             }
         }
-
-
    
     }
 }
