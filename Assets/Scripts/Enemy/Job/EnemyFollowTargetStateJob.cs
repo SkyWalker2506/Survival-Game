@@ -7,6 +7,8 @@ using Unity.Transforms;
 
 namespace ProjectDawn.Enemy.System
 {
+
+
     [BurstCompile]
     public partial struct EnemyFollowTargetStateJob : IJobEntity
     {
@@ -15,19 +17,23 @@ namespace ProjectDawn.Enemy.System
 
         public void Execute(Entity entity, FollowPlayerState followPlayerState, AgentBody agentBody, LocalTransform localTransform,[ChunkIndexInQuery]int chunkIndex)
         {
-            if (math.distance(localTransform.Position, PlayerPosition) > followPlayerState.StopToFollowDistance)
+            var distance = math.distance(localTransform.Position, PlayerPosition);
+            if (distance > followPlayerState.StopToFollowDistance)
             {
                 agentBody.Stop();
                 ECB.SetComponentEnabled<FollowPlayerState>(chunkIndex,entity, false);
                 ECB.SetComponentEnabled<SearchPlayerState>(chunkIndex,entity, true);
             }
-            else if (math.distance(localTransform.Position, PlayerPosition) < followPlayerState.StartToAttackDistance)  
+            else if (distance < followPlayerState.StartToAttackDistance)  
             {
                 agentBody.Stop();
                 ECB.SetComponentEnabled<FollowPlayerState>(chunkIndex,entity, false);
                 ECB.SetComponentEnabled<AttackToPlayerState>(chunkIndex,entity, true);
             }
+            agentBody.Destination = PlayerPosition;
         }
    
     }
+
+
 }
