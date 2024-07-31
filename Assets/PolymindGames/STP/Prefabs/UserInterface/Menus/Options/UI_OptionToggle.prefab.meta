@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f5d5c56dc5285647bb8ddf4e0a2c39a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Menus/Options/UI_OptionToggle.prefab
+  uploadId: 668098

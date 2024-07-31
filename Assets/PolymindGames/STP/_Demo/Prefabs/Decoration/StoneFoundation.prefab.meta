@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f484ab1933fd2be4e8ea0807cd8a14e4
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Decoration/StoneFoundation.prefab
+  uploadId: 668098

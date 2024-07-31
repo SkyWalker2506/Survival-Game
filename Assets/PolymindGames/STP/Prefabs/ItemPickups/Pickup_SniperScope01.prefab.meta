@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b13ac0f4caf42194590a800191d5684e
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_SniperScope01.prefab
+  uploadId: 668098

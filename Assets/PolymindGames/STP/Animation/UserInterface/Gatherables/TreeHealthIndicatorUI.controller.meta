@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdfbbede03b276f4482c2acc85d20986
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Animation/UserInterface/Gatherables/TreeHealthIndicatorUI.controller
+  uploadId: 668098

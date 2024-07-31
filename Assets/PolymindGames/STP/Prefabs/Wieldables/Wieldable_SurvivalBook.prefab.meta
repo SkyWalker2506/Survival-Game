@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 87b121d3059e03841b145b34c6175902
+labels:
+- Wieldable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Wieldable_SurvivalBook.prefab
+  uploadId: 668098

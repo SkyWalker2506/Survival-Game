@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6ae5c6b1e8f836c4e87fbee50f0d5292
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Editor/Wieldables/SightEditor.cs
+  uploadId: 668098

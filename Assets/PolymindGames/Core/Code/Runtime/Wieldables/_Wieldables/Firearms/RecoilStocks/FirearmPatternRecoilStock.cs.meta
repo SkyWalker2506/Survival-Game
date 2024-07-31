@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fe5514e502f71c24fad6268017e9a635
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 4c39397592521b64da1b6febb1afa957, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Wieldables/_Wieldables/Firearms/RecoilStocks/FirearmPatternRecoilStock.cs
+  uploadId: 668098

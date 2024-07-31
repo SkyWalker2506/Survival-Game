@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2fc64aaaaa132c449210772e5120760
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Group/BuildingPIece_Log_FlatRoof.prefab
+  uploadId: 668098

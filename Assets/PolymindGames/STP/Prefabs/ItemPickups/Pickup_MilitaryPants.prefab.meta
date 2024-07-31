@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 771614685e6f75a4b8e42b2c935c0f1f
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_MilitaryPants.prefab
+  uploadId: 668098

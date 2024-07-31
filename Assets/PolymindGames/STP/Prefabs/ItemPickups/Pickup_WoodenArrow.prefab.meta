@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0674a96227aa89c4faf10db8040ba530
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_WoodenArrow.prefab
+  uploadId: 668098

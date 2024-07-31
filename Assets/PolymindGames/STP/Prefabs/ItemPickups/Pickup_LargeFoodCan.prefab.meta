@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f4270a8313d35d478ad6f397eb7c7f0
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_LargeFoodCan.prefab
+  uploadId: 668098

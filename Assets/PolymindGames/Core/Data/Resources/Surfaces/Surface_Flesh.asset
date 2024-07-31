@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5f455fef6aaad459434bb61682f7d4, type: 3}
+  m_Name: Surface_Flesh
+  m_EditorClassIdentifier: 
+  _id: -4710414
+  Materials:
+  - {fileID: 13400000, guid: a7397ecccd221074fa5f6c224e926f59, type: 2}
+  VelocityModifier: 1
+  SurfaceFriction: 0.75
+  PenetrationResistance: 0.3
+  ImpactEffect:
+    AudioData:
+      _volume: 0.3
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 764ae730b313a4548a0b9cb6016e750d, type: 3}
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  SoftFootstepEffect:
+    AudioData:
+      _volume: 0.65
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.1
+      _clips: []
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  HardFootstepEffect:
+    AudioData:
+      _volume: 0.65
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.1
+      _clips: []
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  FallImpactEffect:
+    AudioData:
+      _volume: 0.65
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.1
+      _clips: []
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  BulletEffect:
+    AudioData:
+      _volume: 0.5
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.1
+      _clips:
+      - {fileID: 8300000, guid: 97eaeb2c163f4904d88a54ad3512f3b4, type: 3}
+      - {fileID: 8300000, guid: 58ebc7c0eb61074488625f99c0980642, type: 3}
+      - {fileID: 8300000, guid: 8dda710e0a184384faaaa94be85c5a13, type: 3}
+      - {fileID: 8300000, guid: b6c334e4747442047a227900dc669938, type: 3}
+    VisualEffect: {fileID: 8669506313901530331, guid: 48b699870042bd142afc51fc06c37b66, type: 3}
+    DecalEffect: {fileID: 0}
+  HitEffect:
+    AudioData:
+      _volume: 0.4
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 3eb4c2b04fa352f41b6efb99abc62734, type: 3}
+      - {fileID: 8300000, guid: 5925f69a9b76b4046a5c289bded77f69, type: 3}
+      - {fileID: 8300000, guid: 8a842357465f1ab4187f9bd4065a259a, type: 3}
+    VisualEffect: {fileID: 8739904906831514688, guid: 6d94b55bf404f7e45867cdf4a6679f25, type: 3}
+    DecalEffect: {fileID: 0}
+  CutEffect:
+    AudioData:
+      _volume: 0.4
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 994e80fdb79009240b27811d59788de8, type: 3}
+      - {fileID: 8300000, guid: a1b7fd1251ec4094fab788bb95dafdd4, type: 3}
+      - {fileID: 8300000, guid: 9af5503649a761641a21d673ba84feb8, type: 3}
+    VisualEffect: {fileID: 8739904906831514688, guid: 6d94b55bf404f7e45867cdf4a6679f25, type: 3}
+    DecalEffect: {fileID: 0}
+  StabEffect:
+    AudioData:
+      _volume: 0.4
+      _volumeJitter: 0.1
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 994e80fdb79009240b27811d59788de8, type: 3}
+      - {fileID: 8300000, guid: a1b7fd1251ec4094fab788bb95dafdd4, type: 3}
+      - {fileID: 8300000, guid: 9af5503649a761641a21d673ba84feb8, type: 3}
+    VisualEffect: {fileID: 8669506313901530331, guid: 48b699870042bd142afc51fc06c37b66, type: 3}
+    DecalEffect: {fileID: 0}

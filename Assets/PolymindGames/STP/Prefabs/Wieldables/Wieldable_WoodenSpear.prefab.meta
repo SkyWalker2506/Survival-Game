@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0219a12ac6b9e1243819085bb44b1858
+labels:
+- Wieldable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Wieldable_WoodenSpear.prefab
+  uploadId: 668098

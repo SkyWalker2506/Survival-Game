@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c38c6d2e5a3c3144a9deeef52a5a4f1e
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Group/BuildingPIece_Log_Wall.prefab
+  uploadId: 668098

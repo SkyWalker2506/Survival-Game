@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 871bf5a6ace10744889552174ad95095
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Animation/UserInterface/Inventory/BackpackUI_Show.anim
+  uploadId: 668098

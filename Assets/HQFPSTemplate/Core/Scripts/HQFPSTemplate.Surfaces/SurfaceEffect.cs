@@ -1,61 +1,34 @@
-﻿//-=-=-=-=-=-=- Copyright (c) Polymind Games, All rights reserved. -=-=-=-=-=-=-//
+﻿using PolymindGames.PoolingSystem;
 using UnityEngine;
 
-namespace HQFPSTemplate.Surfaces
+namespace PolymindGames.SurfaceSystem
 {
-    public class SurfaceEffect : MonoBehaviour
+    /// <summary>
+    /// This script defines a surface effect that manages visual effects.
+    /// </summary>
+    [RequireComponent(typeof(PoolableObject))]
+    public sealed class SurfaceEffect : MonoBehaviour
     {
-        [SerializeField]
-        private SoundPlayer m_Audio = null;
+        [SerializeField, ReorderableList(ListStyle.Boxed, HasLabels = false)]
+        private ParticleSystem[] _particles;
 
-        [SerializeField]
-        [HideInInspector]
-        private ParticleSystem[] m_Particles;
-
-        [SerializeField]
-        [HideInInspector]
-        private AudioSource m_AudioSource;
-
-        [HideInInspector]
-        [SerializeField]
-        private bool m_Initialized;
-
-
-        public void Init(SoundPlayer audioEffect, GameObject visualEffect, bool spatializeAudio)
+        
+        public void Play()
         {
-            if(m_Initialized)
-                return;
-
-            m_Audio = audioEffect;
-
-            m_AudioSource = gameObject.AddComponent<AudioSource>();
-            m_AudioSource.spatialBlend = 1f;
-
-            if(spatializeAudio)
-                m_AudioSource.spatialize = true;
-
-            if(visualEffect != null)
-            {
-                Instantiate(visualEffect, transform.position, transform.rotation, transform);
-                m_Particles = GetComponentsInChildren<ParticleSystem>();
-            }
-
-            m_Initialized = true;
+            for (int i = 0; i < _particles.Length; i++)
+                _particles[i].Play(false);
         }
 
-        public void Play(float audioVolume)
+#if UNITY_EDITOR
+        private void Reset()
         {
-            if(!m_Initialized)
-            {
-                Debug.LogError("Trying to play a surface effect, but it's not initialized!");
-                return;
-            }
-
-            if(m_Audio != null)
-                m_Audio.Play(m_AudioSource, audioVolume);
-
-            for(int i = 0;i < m_Particles.Length;i++)
-                m_Particles[i].Play();
+            gameObject.layer = LayerConstants.EFFECT;
         }
+
+        private void OnValidate()
+        {
+            _particles = GetComponentsInChildren<ParticleSystem>();
+        }
+#endif
     }
 }

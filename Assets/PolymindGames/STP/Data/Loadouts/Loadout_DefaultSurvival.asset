@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2ef5431a8e4b2f8cb16010091f8c92, type: 3}
+  m_Name: Loadout_DefaultSurvival
+  m_EditorClassIdentifier: 
+  _data:
+  - Container:
+      Name: Backpack
+      MaxSize: 30
+      RequiredTags: []
+      RequiredProperties: []
+    Items:
+    - _method: 0
+      _item:
+        _value: -20407
+      _category:
+        _value: 0
+      _minCount: 2
+      _maxCount: 3
+    - _method: 0
+      _item:
+        _value: 9878845
+      _category:
+        _value: 0
+      _minCount: 2
+      _maxCount: 3
+    - _method: 0
+      _item:
+        _value: 8505358
+      _category:
+        _value: 0
+      _minCount: 2
+      _maxCount: 3
+    - _method: 0
+      _item:
+        _value: -7862085
+      _category:
+        _value: 0
+      _minCount: 1
+      _maxCount: 1
+    - _method: 0
+      _item:
+        _value: 4548792
+      _category:
+        _value: 0
+      _minCount: 3
+      _maxCount: 5
+  - Container:
+      Name: Holster
+      MaxSize: 6
+      RequiredTags:
+      - _value: 6549466
+      RequiredProperties: []
+    Items: []
+  - Container:
+      Name: Head
+      MaxSize: 1
+      RequiredTags:
+      - _value: 7285651
+      RequiredProperties: []
+    Items: []
+  - Container:
+      Name: Torso
+      MaxSize: 1
+      RequiredTags:
+      - _value: 8349022
+      RequiredProperties: []
+    Items:
+    - _method: 0
+      _item:
+        _value: -2328174
+      _category:
+        _value: 0
+      _minCount: 1
+      _maxCount: 1
+  - Container:
+      Name: Legs
+      MaxSize: 1
+      RequiredTags:
+      - _value: -6432735
+      RequiredProperties: []
+    Items:
+    - _method: 0
+      _item:
+        _value: -2864101
+      _category:
+        _value: 0
+      _minCount: 1
+      _maxCount: 1
+  - Container:
+      Name: Feet
+      MaxSize: 1
+      RequiredTags:
+      - _value: -5796568
+      RequiredProperties: []
+    Items:
+    - _method: 0
+      _item:
+        _value: -3870361
+      _category:
+        _value: 3040258
+      _minCount: 1
+      _maxCount: 1

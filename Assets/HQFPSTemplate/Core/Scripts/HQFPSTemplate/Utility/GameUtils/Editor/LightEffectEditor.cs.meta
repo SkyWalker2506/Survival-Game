@@ -9,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/Core/Scripts/HQFPSTemplate/Utility/GameUtils/Editor/LightEffectEditor.cs
+  uploadId: 668098

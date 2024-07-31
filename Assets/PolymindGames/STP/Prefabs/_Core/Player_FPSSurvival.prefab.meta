@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c34110b07fd766b41b366e6470f210aa
+labels:
+- Player
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/_Core/Player_FPSSurvival.prefab
+  uploadId: 668098

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5cd0e1f7f44f2d242828ffbab5be6eb8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Motion/Shakes/Camera_Explosion.asset
+  uploadId: 668098

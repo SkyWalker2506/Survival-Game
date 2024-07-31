@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5f455fef6aaad459434bb61682f7d4, type: 3}
+  m_Name: Surface_Heavy Metal
+  m_EditorClassIdentifier: 
+  _id: 9632679
+  Materials:
+  - {fileID: 13400000, guid: db86e7b925470cc47909dc84456a0a15, type: 2}
+  VelocityModifier: 1
+  SurfaceFriction: 0.95
+  PenetrationResistance: 0.3
+  ImpactEffect:
+    AudioData:
+      _volume: 0.35
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 624ce0652f0555b4e94c123bafcd4fb4, type: 3}
+      - {fileID: 8300000, guid: c8e08ea02916b064ba1b9b0ceb1f34d1, type: 3}
+      - {fileID: 8300000, guid: 6909f61b158db2244983f1f88e9b5fde, type: 3}
+      - {fileID: 8300000, guid: ff94544e827f0f048b4f561af456cb04, type: 3}
+      - {fileID: 8300000, guid: 976623fb191e4454d8d7f7425b00489d, type: 3}
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  SoftFootstepEffect:
+    AudioData:
+      _volume: 0.5
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: a39c5741fa8ad5b438204dacbd530328, type: 3}
+      - {fileID: 8300000, guid: 195a5dcd2c7efbc41b8a1d996cbbdccd, type: 3}
+      - {fileID: 8300000, guid: b331ac1ebd9e65f49befa0fd52ecd373, type: 3}
+      - {fileID: 8300000, guid: 3f744aab2ff46fc4690eb1b5f6a64134, type: 3}
+      - {fileID: 8300000, guid: b16b24383465c614e861176b05f2c5ed, type: 3}
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  HardFootstepEffect:
+    AudioData:
+      _volume: 0.5
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: a39c5741fa8ad5b438204dacbd530328, type: 3}
+      - {fileID: 8300000, guid: 195a5dcd2c7efbc41b8a1d996cbbdccd, type: 3}
+      - {fileID: 8300000, guid: b331ac1ebd9e65f49befa0fd52ecd373, type: 3}
+      - {fileID: 8300000, guid: 3f744aab2ff46fc4690eb1b5f6a64134, type: 3}
+      - {fileID: 8300000, guid: b16b24383465c614e861176b05f2c5ed, type: 3}
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  FallImpactEffect:
+    AudioData:
+      _volume: 0.4
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 3ba0b34100d6ba94f8b9165b659a3356, type: 3}
+    VisualEffect: {fileID: 0}
+    DecalEffect: {fileID: 0}
+  BulletEffect:
+    AudioData:
+      _volume: 0.35
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 8d6bf0a5cec1ad94a9febbb9815a663d, type: 3}
+      - {fileID: 8300000, guid: 469b65d5f826a1f4aa2ec7b5db5f1ae0, type: 3}
+    VisualEffect: {fileID: -2661592812077496925, guid: 5a7529d00e1918e4dab1dc05b50a16da, type: 3}
+    DecalEffect: {fileID: 0}
+  HitEffect:
+    AudioData:
+      _volume: 0.35
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 5011cf025399ca341a7d8b42f42059c2, type: 3}
+      - {fileID: 8300000, guid: 7b719669c086b0248b8c95f302fba92b, type: 3}
+      - {fileID: 8300000, guid: f5eb38bf5ff7298498ecd00cde021d6d, type: 3}
+    VisualEffect: {fileID: -2661592812077496925, guid: 5a7529d00e1918e4dab1dc05b50a16da, type: 3}
+    DecalEffect: {fileID: 0}
+  CutEffect:
+    AudioData:
+      _volume: 0.35
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 8d6bf0a5cec1ad94a9febbb9815a663d, type: 3}
+      - {fileID: 8300000, guid: 469b65d5f826a1f4aa2ec7b5db5f1ae0, type: 3}
+    VisualEffect: {fileID: -2661592812077496925, guid: 5a7529d00e1918e4dab1dc05b50a16da, type: 3}
+    DecalEffect: {fileID: 0}
+  StabEffect:
+    AudioData:
+      _volume: 0.35
+      _volumeJitter: 0.05
+      _pitch: 1
+      _pitchJitter: 0.05
+      _clips:
+      - {fileID: 8300000, guid: 8d6bf0a5cec1ad94a9febbb9815a663d, type: 3}
+      - {fileID: 8300000, guid: 469b65d5f826a1f4aa2ec7b5db5f1ae0, type: 3}
+    VisualEffect: {fileID: -2661592812077496925, guid: 5a7529d00e1918e4dab1dc05b50a16da, type: 3}
+    DecalEffect: {fileID: 0}

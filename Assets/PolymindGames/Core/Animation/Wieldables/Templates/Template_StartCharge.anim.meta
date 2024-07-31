@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 83a8105bd0781ea4d84f940fcf640dc3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Animation/Wieldables/Templates/Template_StartCharge.anim
+  uploadId: 668098

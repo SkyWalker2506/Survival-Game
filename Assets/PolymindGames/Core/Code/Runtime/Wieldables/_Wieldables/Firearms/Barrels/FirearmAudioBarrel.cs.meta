@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1c62d0b49b58e824c87d804a0a437b99
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: eaf415d0d46b9bb4186f737fd4ed393a, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Wieldables/_Wieldables/Firearms/Barrels/FirearmAudioBarrel.cs
+  uploadId: 668098

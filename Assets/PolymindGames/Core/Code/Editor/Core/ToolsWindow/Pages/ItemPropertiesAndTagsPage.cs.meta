@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9f6de0bff7b24ffe8ce14d33bad363b3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Editor/Core/ToolsWindow/Pages/ItemPropertiesAndTagsPage.cs
+  uploadId: 668098

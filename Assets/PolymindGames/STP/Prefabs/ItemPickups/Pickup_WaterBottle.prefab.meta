@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1f43871f380706d47942bdf7bda640fa
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_WaterBottle.prefab
+  uploadId: 668098

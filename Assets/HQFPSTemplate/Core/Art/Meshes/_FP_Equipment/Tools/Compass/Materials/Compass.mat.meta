@@ -2,7 +2,14 @@ fileFormatVersion: 2
 guid: 04c1799889959fa42aa3a85e5831ae0b
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/Core/Art/Meshes/_FP_Equipment/Tools/Compass/Materials/Compass.mat
+  uploadId: 668098

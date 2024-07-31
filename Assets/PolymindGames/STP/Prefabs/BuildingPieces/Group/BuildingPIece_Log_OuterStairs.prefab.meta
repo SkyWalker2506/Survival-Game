@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ce2c8c62b84dd7d408d4a6045f73f657
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Group/BuildingPIece_Log_OuterStairs.prefab
+  uploadId: 668098

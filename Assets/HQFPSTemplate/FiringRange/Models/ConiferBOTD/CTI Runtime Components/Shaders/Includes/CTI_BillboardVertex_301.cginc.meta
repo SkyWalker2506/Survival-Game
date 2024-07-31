@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 47ef44b89c45d4f8292817305544b265
-timeCreated: 1552821549
-licenseType: Store
-ShaderImporter:
-  defaultTextures: []
+ShaderIncludeImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/FiringRange/Models/ConiferBOTD/CTI Runtime Components/Shaders/Includes/CTI_BillboardVertex_301.cginc
+  uploadId: 668098

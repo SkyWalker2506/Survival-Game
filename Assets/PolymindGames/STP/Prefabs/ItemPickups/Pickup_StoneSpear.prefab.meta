@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e0cb3776aee3c4147915078fa7396ee3
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_StoneSpear.prefab
+  uploadId: 668098

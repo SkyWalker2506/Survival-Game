@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b132e802818c2328a68f0708e4164ffc
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/ThirdParty/Odin Serializer/PolymindGames.OdinSerializer.asmdef
+  uploadId: 668098

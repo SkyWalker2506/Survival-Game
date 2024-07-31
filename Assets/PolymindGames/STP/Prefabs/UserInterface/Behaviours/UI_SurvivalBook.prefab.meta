@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 49a370bac4c383c4c8433758f4b99edd
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Behaviours/UI_SurvivalBook.prefab
+  uploadId: 668098

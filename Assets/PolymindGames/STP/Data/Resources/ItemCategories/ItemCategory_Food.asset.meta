@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7086e42fbd522a0479e34273226dac6b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/ItemCategories/ItemCategory_Food.asset
+  uploadId: 668098

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 799ad2ed79637cd4a9318a6ba8ba637f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Code/Runtime/UserInterface/Building/BuildSelectionUI.cs
+  uploadId: 668098

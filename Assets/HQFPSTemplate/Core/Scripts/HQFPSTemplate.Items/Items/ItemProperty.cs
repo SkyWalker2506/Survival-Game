@@ -1,102 +1,108 @@
-﻿//-=-=-=-=-=-=- Copyright (c) Polymind Games, All rights reserved. -=-=-=-=-=-=-//
+﻿using UnityEngine;
 using System;
-using UnityEngine;
 
-namespace HQFPSTemplate.Items
+namespace PolymindGames.InventorySystem
 {
+    public enum ItemPropertyType
+    {
+        Boolean,
+        Integer,
+        Float,
+        Double,
+        Item
+    }
+
     /// <summary>
-    /// An item property can hold a float value which can also be manipulated as a bool and integer.
+    /// Item properties hold values that can be changed and manipulated at runtime resulting in dynamic behaviour (float, bool and integer).
     /// </summary>
     [Serializable]
-    public class ItemProperty
+    public sealed class ItemProperty
     {
-        public Message<ItemProperty> Changed = new Message<ItemProperty>();
+        [SerializeField]
+        private int _id;
 
-        public string Name { get => m_Name; }
-        public ItemPropertyType Type { get => m_Type; }
+        [SerializeField]
+        private ItemPropertyType _type;
+
+        [SerializeField]
+        private double _value;
+        
+        
+        public int Id => _id;
+        public string Name => ItemPropertyDefinition.GetWithId(_id).Name;
+        public ItemPropertyType Type => _type;
 
         public bool Boolean
         {
-            get
-            {
-                return m_Value > 0f;
-            }
+            get => _value > 0f;
             set
             {
-                if(m_Type == ItemPropertyType.Boolean)
-                    SetInternalValue(value == true ? 1 : 0);
+                if (_type == ItemPropertyType.Boolean)
+                    SetInternalValue(value ? 1 : 0);
             }
         }
 
         public int Integer
         {
-            get
-            {
-                return (int)m_Value;
-            }
+            get => (int)_value;
             set
             {
-                if(m_Type == ItemPropertyType.Integer)
+                if (_type == ItemPropertyType.Integer)
+                    SetInternalValue(value);
+            }
+        }
+
+        public double Double
+        {
+            get => _value;
+            set
+            {
+                if (_type == ItemPropertyType.Double)
                     SetInternalValue(value);
             }
         }
 
         public float Float
         {
-            get
-            {
-                return m_Value;
-            }
+            get => (float)_value;
             set
             {
-                if(m_Type == ItemPropertyType.Float)
+                if (_type == ItemPropertyType.Float)
                     SetInternalValue(value);
             }
         }
 
         public int ItemId
         {
-            get
-            {
-                return (int)m_Value;
-            }
+            get => (int)_value;
             set
             {
-                if(m_Type == ItemPropertyType.ItemId)
-                    SetInternalValue(Mathf.Clamp(value, -9999999, 9999999));
+                if (_type == ItemPropertyType.Item)
+                    SetInternalValue(value);
             }
         }
 
-        [SerializeField]
-        private string m_Name;
 
-        [SerializeField]
-        private ItemPropertyType m_Type;
-
-        [SerializeField]
-        private float m_Value;
-
-
-        public ItemProperty(ItemPropertyInfo propertyInfo)
+        public ItemProperty(ItemPropertyDefinition definition, double value)
         {
-            m_Name = propertyInfo.Name;
-            m_Type = propertyInfo.Type;
-
-            m_Value = propertyInfo.GetAsFloat();
+            _id = definition.Id;
+            _type = definition.Type;
+            _value = value;
         }
 
-        public ItemProperty GetMemberwiseClone()
-        {
-            return (ItemProperty)MemberwiseClone();
-        }
+        public event PropertyChangedDelegate Changed;
 
-        private void SetInternalValue(float value)
-        {
-            float oldValue = m_Value;
-            m_Value = value;
+        public ItemProperty Clone() => (ItemProperty)MemberwiseClone();
 
-            if(oldValue != m_Value)
-                Changed.Send(this);
+        private void SetInternalValue(double value)
+        {
+            double oldValue = _value;
+            _value = value;
+
+            if (Math.Abs(oldValue - _value) > 0.001)
+                Changed?.Invoke(this);
         }
     }
+
+    public delegate void PropertyChangedDelegate(ItemProperty property);
 }

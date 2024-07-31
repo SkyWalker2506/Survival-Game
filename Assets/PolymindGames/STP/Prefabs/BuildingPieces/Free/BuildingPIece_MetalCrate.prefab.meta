@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ee7ed91e700e23a44b3dc2acacfc2bce
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Free/BuildingPIece_MetalCrate.prefab
+  uploadId: 668098

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c26c90643cd4e1346b73cebfb3e7b81e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/ItemCategories/ItemCategory_Tools.asset
+  uploadId: 668098

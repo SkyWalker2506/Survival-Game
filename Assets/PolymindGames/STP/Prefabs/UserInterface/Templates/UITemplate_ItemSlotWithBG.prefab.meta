@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 01b3e96ac04ea7143a21308dfa13b259
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Templates/UITemplate_ItemSlotWithBG.prefab
+  uploadId: 668098

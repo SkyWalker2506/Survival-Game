@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c2ab3788b0f02c54696038d2bcc75a4f
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Decoration/WoodenTable.prefab
+  uploadId: 668098

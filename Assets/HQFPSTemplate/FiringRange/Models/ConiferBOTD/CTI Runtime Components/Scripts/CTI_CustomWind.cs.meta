@@ -1,8 +1,7 @@
 fileFormatVersion: 2
 guid: 1edb39aa169eb40cfa015393d5396847
-timeCreated: 1453739084
-licenseType: Store
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -10,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/FiringRange/Models/ConiferBOTD/CTI Runtime Components/Scripts/CTI_CustomWind.cs
+  uploadId: 668098

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bc387c2bdbdc5dc4b9816a29acbdbc72
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Inventory/Pickup/FirearmItemPickup.cs
+  uploadId: 668098

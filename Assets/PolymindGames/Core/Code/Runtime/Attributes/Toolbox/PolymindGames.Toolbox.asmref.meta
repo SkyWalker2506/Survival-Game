@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2a5882014cf4a1428cbd2854af840f4
+AssemblyDefinitionReferenceImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Attributes/Toolbox/PolymindGames.Toolbox.asmref
+  uploadId: 668098

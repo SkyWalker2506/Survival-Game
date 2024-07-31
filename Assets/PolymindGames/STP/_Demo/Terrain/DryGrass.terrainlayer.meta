@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97a0f8853531dc345a75f4f558e74d3e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Terrain/DryGrass.terrainlayer
+  uploadId: 668098

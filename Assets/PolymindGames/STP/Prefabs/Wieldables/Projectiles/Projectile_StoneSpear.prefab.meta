@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5920f3b08df1d5347be969742429ebcb
+labels:
+- Projectile
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Projectiles/Projectile_StoneSpear.prefab
+  uploadId: 668098

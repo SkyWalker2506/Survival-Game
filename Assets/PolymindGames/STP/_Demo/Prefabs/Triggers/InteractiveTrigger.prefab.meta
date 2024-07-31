@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23252946cd173314f982f0b2f6a75bc9
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Triggers/InteractiveTrigger.prefab
+  uploadId: 668098

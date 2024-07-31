@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c39ee81d09109dd4cb7ca63e69014386
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Motion/Shakes/Wieldable_ChangeFiremode.asset
+  uploadId: 668098

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 071165edb9eaf9341aaac98b0473deec
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Decoration/Plank.prefab
+  uploadId: 668098

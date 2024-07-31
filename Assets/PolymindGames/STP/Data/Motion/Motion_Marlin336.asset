@@ -1,0 +1,687 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8482067785656242391
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22278758216372f43b89ca73517dcbf8, type: 3}
+  m_Name: _ComplexOffsetMotionData
+  m_EditorClassIdentifier: 
+  _positionSpring:
+    Damping: 10
+    Stiffness: 100
+    Mass: 1
+    Speed: 1
+  _rotationSpring:
+    Damping: 10
+    Stiffness: 100
+    Mass: 1
+    Speed: 1
+  _enterForce:
+    Force: {x: -2, y: 1, z: -1.5}
+    Duration: 0.15
+  _exitForce:
+    Force: {x: 1.75, y: -1.5, z: -1.2}
+    Duration: 0.15
+  _positionOffset: {x: 0.3, y: -0.1, z: -1.25}
+  _rotationOffset: {x: -3, y: -2.5, z: 6}
+--- !u!114 &-6987456088943890678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce03c6e5b24ff7469b123b4b35767a1, type: 3}
+  m_Name: _GeneralMotionData
+  m_EditorClassIdentifier: 
+  _look:
+    _maxSwayLength: 6
+    _positionSpring:
+      Damping: 10
+      Stiffness: 75
+      Mass: 1
+      Speed: 1
+    _positionSway: {x: -0.2, y: -0.1, z: 0}
+    _rotationSpring:
+      Damping: 7.5
+      Stiffness: 110
+      Mass: 1
+      Speed: 1
+    _rotationSway: {x: 1.25, y: -0.6, z: 0.8}
+  _strafe:
+    _maxSwayLength: 5
+    _positionSpring:
+      Damping: 9
+      Stiffness: 90
+      Mass: 1.2
+      Speed: 1
+    _positionSway: {x: -0.01, y: 0, z: 0}
+    _rotationSpring:
+      Damping: 5
+      Stiffness: 90
+      Mass: 1.2
+      Speed: 1
+    _rotationSway: {x: 0, y: -0.36, z: 0.3}
+  _jump:
+    _positionSpring:
+      Damping: 10
+      Stiffness: 120
+      Mass: 1
+      Speed: 1
+    _positionCurves:
+      _multiplier: 0.8
+      _xCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _yCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.2
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _zCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    _rotationSpring:
+      Damping: 10
+      Stiffness: 100
+      Mass: 1
+      Speed: 1
+    _rotationCurves:
+      _multiplier: 1
+      _xCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.00075912476
+          value: -0.021469116
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.29541016
+          value: 0.0009460449
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _yCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _zCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.0053138733
+          value: -1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.29382324
+          value: 0.0009460449
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  _land:
+    _positionSpring:
+      Damping: 10
+      Stiffness: 115
+      Mass: 1
+      Speed: 1
+    _positionCurves:
+      _multiplier: 1
+      _xCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _yCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -5
+          inSlope: -14.683147
+          outSlope: -14.683147
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.3188105
+        - serializedVersion: 3
+          time: 0.1
+          value: -0.0149383545
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _zCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    _rotationSpring:
+      Damping: 10
+      Stiffness: 115
+      Mass: 1
+      Speed: 1
+    _rotationCurves:
+      _multiplier: -0.5
+      _xCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.0022773743
+          value: -0.35
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.34851074
+          value: -0.011779785
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.052482665
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _yCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.059237264
+          value: -1.4934471
+          inSlope: -2.0470343
+          outSlope: -2.0470343
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.061207734
+        - serializedVersion: 3
+          time: 0.3
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _zCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.09030762
+          value: -1.4987427
+          inSlope: -2.0470343
+          outSlope: -2.0470343
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.061207734
+        - serializedVersion: 3
+          time: 0.3
+          value: 0.0126953125
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  _fall:
+    _positionSpring:
+      Damping: 8
+      Stiffness: 100
+      Mass: 1
+      Speed: 1
+    _rotationSpring:
+      Damping: 8
+      Stiffness: 100
+      Mass: 1
+      Speed: 1
+    _positionValue: 0
+    _rotationValue: 0.65
+--- !u!114 &-5900675576701386694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc21943bf9839914a925d7af301f538b, type: 3}
+  m_Name: _BasicBobMotionData
+  m_EditorClassIdentifier: 
+  _bobType: 0
+  _bobSpeed: 1
+  _positionSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1
+    Speed: 1
+  _positionStepForce:
+    Force: {x: 0, y: -10, z: 0}
+    Duration: 0.075
+  _positionAmplitude: {x: 0.5, y: -0.4, z: 0}
+  _rotationSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1
+    Speed: 1
+  _rotationStepForce:
+    Force: {x: 0, y: 0, z: 2}
+    Duration: 0.1
+  _rotationAmplitude: {x: -2.25, y: 0.75, z: -1.75}
+--- !u!114 &-2854169978716621530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc21943bf9839914a925d7af301f538b, type: 3}
+  m_Name: _BasicBobMotionData
+  m_EditorClassIdentifier: 
+  _bobType: 0
+  _bobSpeed: 1
+  _positionSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1.1
+    Speed: 1
+  _positionStepForce:
+    Force: {x: 0, y: -20, z: 0}
+    Duration: 0.075
+  _positionAmplitude: {x: 2, y: -6, z: 0.5}
+  _rotationSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1.1
+    Speed: 1
+  _rotationStepForce:
+    Force: {x: 4, y: 0, z: 7}
+    Duration: 0.1
+  _rotationAmplitude: {x: -8, y: 7, z: 8}
+--- !u!114 &-2079249281537080400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22278758216372f43b89ca73517dcbf8, type: 3}
+  m_Name: _ComplexOffsetMotionData
+  m_EditorClassIdentifier: 
+  _positionSpring:
+    Damping: 12
+    Stiffness: 85
+    Mass: 1
+    Speed: 1
+  _rotationSpring:
+    Damping: 11
+    Stiffness: 95
+    Mass: 1
+    Speed: 1
+  _enterForce:
+    Force: {x: -0.9, y: 5, z: -1.5}
+    Duration: 0.125
+  _exitForce:
+    Force: {x: 0.5, y: -3.6, z: 0.6}
+    Duration: 0.125
+  _positionOffset: {x: -4, y: -8, z: -3}
+  _rotationOffset: {x: 3, y: -35, z: 25}
+--- !u!114 &-1235026978243125997
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc21943bf9839914a925d7af301f538b, type: 3}
+  m_Name: _BasicBobMotionData
+  m_EditorClassIdentifier: 
+  _bobType: 0
+  _bobSpeed: 1
+  _positionSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1
+    Speed: 1
+  _positionStepForce:
+    Force: {x: 0, y: -10, z: 0}
+    Duration: 0.075
+  _positionAmplitude: {x: 0.5, y: -0.4, z: 0}
+  _rotationSpring:
+    Damping: 10
+    Stiffness: 90
+    Mass: 1
+    Speed: 1
+  _rotationStepForce:
+    Force: {x: 0, y: 0, z: 2}
+    Duration: 0.1
+  _rotationAmplitude: {x: -2.25, y: 0.75, z: -1.75}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b68cd863358e134894bf7001b9e6d6f, type: 3}
+  m_Name: Motion_Marlin336
+  m_EditorClassIdentifier: 
+  _baseProfile: {fileID: 11400000, guid: f491f73b564a2e545a6a389790fdc4c6, type: 2}
+  _motionData:
+  - State: 0
+    Data:
+    - {fileID: -6987456088943890678}
+    - {fileID: 5423412211682269634}
+    - {fileID: 6713340953646228765}
+  - State: 1
+    Data:
+    - {fileID: 165569883436002123}
+  - State: 2
+    Data:
+    - {fileID: -1235026978243125997}
+  - State: 3
+    Data:
+    - {fileID: -2854169978716621530}
+    - {fileID: -2079249281537080400}
+  - State: 5
+    Data:
+    - {fileID: -5900675576701386694}
+    - {fileID: -8482067785656242391}
+    - {fileID: 3692902651283640768}
+  - State: 4
+    Data:
+    - {fileID: 5215090364975885892}
+--- !u!114 &165569883436002123
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59bef0fe3dfbe14b807a7b11202eecc, type: 3}
+  m_Name: _SimpleBobMotionData
+  m_EditorClassIdentifier: 
+  _bobType: 0
+  _bobSpeed: 1
+  _positionAmplitude: {x: 0.1, y: -0.2, z: 0}
+  _rotationAmplitude: {x: -1, y: 1, z: -3}
+--- !u!114 &3692902651283640768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0005e7df39b74f47a4157b9ca3d8972, type: 3}
+  m_Name: _NoiseMotionData
+  m_EditorClassIdentifier: 
+  _noiseSpeed: 1
+  _noiseJitter: 0
+  _positionAmplitude: {x: 0.1, y: 0.1, z: 0.1}
+  _rotationAmplitude: {x: 0.1, y: 0.1, z: 0.1}
+--- !u!114 &5215090364975885892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22278758216372f43b89ca73517dcbf8, type: 3}
+  m_Name: _ComplexOffsetMotionData
+  m_EditorClassIdentifier: 
+  _positionSpring:
+    Damping: 12
+    Stiffness: 120
+    Mass: 1
+    Speed: 1
+  _rotationSpring:
+    Damping: 12
+    Stiffness: 120
+    Mass: 1
+    Speed: 1
+  _enterForce:
+    Force: {x: -2, y: 1, z: -1.5}
+    Duration: 0.15
+  _exitForce:
+    Force: {x: 1.5, y: -1.5, z: 2.5}
+    Duration: 0.15
+  _positionOffset: {x: 0.3, y: -0.1, z: -1.25}
+  _rotationOffset: {x: -4, y: -2.5, z: 6}
+--- !u!114 &5423412211682269634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0005e7df39b74f47a4157b9ca3d8972, type: 3}
+  m_Name: _NoiseMotionData
+  m_EditorClassIdentifier: 
+  _noiseSpeed: 1.5
+  _noiseJitter: 0.1
+  _positionAmplitude: {x: 0.175, y: 0.25, z: 0.25}
+  _rotationAmplitude: {x: 0.3, y: 0.4, z: 0.5}
+--- !u!114 &6713340953646228765
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5f1c3469c8f0e41a77be6445ac4880, type: 3}
+  m_Name: _RetractionMotionData
+  m_EditorClassIdentifier: 
+  _retractionDistance: 1
+  _positionSpring:
+    Damping: 10
+    Stiffness: 125
+    Mass: 1
+    Speed: 1.25
+  _positionOffset: {x: -1, y: -2, z: -3}
+  _rotationSpring:
+    Damping: 9
+    Stiffness: 100
+    Mass: 1
+    Speed: 1
+  _rotationOffset: {x: -8, y: 2, z: 15}

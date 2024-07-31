@@ -1,8 +1,16 @@
 fileFormatVersion: 2
 guid: e6d607e9c6a0a44fb974c8a3766673da
-timeCreated: 1509882907
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/FiringRange/Models/ConiferBOTD/CTI Runtime Components/Default
+    Components/Resources/CTI_default_albedo_Texture2DArray.asset
+  uploadId: 668098

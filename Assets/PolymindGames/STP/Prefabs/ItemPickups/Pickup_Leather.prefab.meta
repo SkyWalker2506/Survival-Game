@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d7a14c394c25c2c45ad90cb6847300c0
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_Leather.prefab
+  uploadId: 668098

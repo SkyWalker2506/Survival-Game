@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 40ac6268f5185674e8efb76cb3242b46
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Animation/Wieldables/Templates/Template_Shoot.anim
+  uploadId: 668098

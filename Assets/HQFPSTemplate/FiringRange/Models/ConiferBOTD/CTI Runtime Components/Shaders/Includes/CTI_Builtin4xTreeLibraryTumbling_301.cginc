@@ -122,7 +122,6 @@ inline half4 LightingTreeLeaf (LeafSurfaceOutput s, half3 lightDir, half3 viewDi
 	nl = max(0, nl * 0.6 + 0.4);
 	
 	fixed4 c;
-	/////@TODO: what is is this multiply 2x here???
 	c.rgb = s.Albedo * (translucencyColor * 2 + nl);
 	c.rgb = c.rgb * _LightColor0.rgb + spec;
 	

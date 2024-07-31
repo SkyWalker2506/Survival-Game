@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ca2c174309f0a04b8a7f26209c0a82e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/RarityLevels/RarityLevel_Legendary.asset
+  uploadId: 668098

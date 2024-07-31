@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1348c6688e30bbe468d81fcc1b0f090a
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_Boots.prefab
+  uploadId: 668098

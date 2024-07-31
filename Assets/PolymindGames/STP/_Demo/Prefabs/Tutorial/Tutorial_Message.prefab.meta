@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f1388b4b9da6a344b2b36a6ff160679
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Tutorial/Tutorial_Message.prefab
+  uploadId: 668098

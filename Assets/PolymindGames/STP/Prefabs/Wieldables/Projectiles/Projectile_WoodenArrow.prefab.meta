@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d5be5fb203a37242843b152dacb2f0a
+labels:
+- Projectile
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Projectiles/Projectile_WoodenArrow.prefab
+  uploadId: 668098

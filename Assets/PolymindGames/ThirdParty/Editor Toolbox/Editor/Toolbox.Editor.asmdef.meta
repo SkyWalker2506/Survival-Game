@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1b845e2499b39be4aab3e6ac2c8aa02a
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/ThirdParty/Editor Toolbox/Editor/Toolbox.Editor.asmdef
+  uploadId: 668098

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e4fea56603756814098fed87b1c4c33d
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Decoration/PlankPanel.prefab
+  uploadId: 668098

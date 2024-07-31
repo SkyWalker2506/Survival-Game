@@ -1,28 +1,28 @@
-﻿//-=-=-=-=-=-=- Copyright (c) Polymind Games, All rights reserved. -=-=-=-=-=-=-//
+﻿using PolymindGames;
 using UnityEditor;
 using UnityEngine;
 
-namespace HQFPSTemplate
+namespace PolymindGamesEditor
 {
     [CustomEditor(typeof(LightEffect))]
-    public class LightEffectEditor : Editor
+    public sealed class LightEffectEditor : ObjectEditor
     {
-        public override void OnInspectorGUI()
+        public override void DrawCustomInspector()
         {
-            base.OnInspectorGUI();
+            base.DrawCustomInspector();
 
             EditorGUILayout.Space();
 
-            if(!Application.isPlaying)
+            if (!Application.isPlaying)
                 GUI.enabled = false;
 
-            if(GUILayout.Button("Play (fadeIn = true)"))
-                (target as LightEffect).Play(true);
+            if (GUILayout.Button("Play (fadeIn = true)"))
+                ((LightEffect)target).Play(true);
 
-            if(GUILayout.Button("Play (fadeIn = false)"))
-                (target as LightEffect).Play(false);
+            if (GUILayout.Button("Play (fadeIn = false)"))
+                ((LightEffect)target).Play(false);
 
-            if(!Application.isPlaying)
+            if (!Application.isPlaying)
                 GUI.enabled = true;
         }
     }

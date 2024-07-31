@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d2ef5431a8e4b2f8cb16010091f8c92
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Inventory/Utility/InventoryStartupSO.cs
+  uploadId: 668098

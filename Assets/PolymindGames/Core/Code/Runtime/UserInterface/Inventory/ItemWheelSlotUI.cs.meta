@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0ed7a942841624805944899cab9a96b8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 6a3b0742a34006d488b2472efc0123a1, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/UserInterface/Inventory/ItemWheelSlotUI.cs
+  uploadId: 668098

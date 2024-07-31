@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0859144902276f849997243eabd70157
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Animation/UserInterface/Templates/Template_HighlightButtonUI.anim
+  uploadId: 668098

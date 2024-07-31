@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 60f7bf66f2292d34d86470c5b3928e92
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_ClothSack.prefab
+  uploadId: 668098

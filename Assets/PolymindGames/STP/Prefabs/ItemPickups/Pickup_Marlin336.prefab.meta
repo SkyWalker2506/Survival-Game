@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c569acaaf1eb28e418b172f5454b9239
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_Marlin336.prefab
+  uploadId: 668098

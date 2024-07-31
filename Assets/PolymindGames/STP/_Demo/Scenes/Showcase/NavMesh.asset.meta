@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33bce5ca18d895149b1a346ce20d55fd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Scenes/Showcase/NavMesh.asset
+  uploadId: 668098

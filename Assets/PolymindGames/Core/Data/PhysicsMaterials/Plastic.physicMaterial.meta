@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60d292b7797fcb44fb11a3257a50e843
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/PhysicsMaterials/Plastic.physicMaterial
+  uploadId: 668098

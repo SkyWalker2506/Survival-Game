@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2d66e3915a5a56f43989159a7da98d3a
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Buttons/Button - Toggle Time
+    Progression.prefab
+  uploadId: 668098

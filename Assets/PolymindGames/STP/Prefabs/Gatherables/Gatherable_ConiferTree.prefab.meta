@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3f864d1228322054c8792f645b7dc7e4
+labels:
+- Gatherable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Gatherables/Gatherable_ConiferTree.prefab
+  uploadId: 668098

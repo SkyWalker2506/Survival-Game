@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 29615b4b2990c4e4f9e5e3b8acf5c9ab
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_Jeans.prefab
+  uploadId: 668098

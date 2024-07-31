@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7509ec9cc20148db825003ea867b32e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Visuals/Particles/Smoke/DustPuff.mat
+  uploadId: 668098

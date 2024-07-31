@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 5d3ded904854c45a884c86212264252a
-timeCreated: 1514984434
-licenseType: Store
-ShaderImporter:
-  defaultTextures: []
+ShaderIncludeImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/FiringRange/Models/ConiferBOTD/CTI Runtime Components/Shaders/Includes/CTI_Builtin4xTreeLibraryTumbling_301.cginc
+  uploadId: 668098

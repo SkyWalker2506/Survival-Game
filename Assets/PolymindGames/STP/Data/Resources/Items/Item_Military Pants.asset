@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9067459590767015132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eaa70749c8cc748b6d39714579ca9e, type: 3}
+  m_Name: _FuelData
+  m_EditorClassIdentifier: 
+  _fuel: {x: 65, y: 75}
+--- !u!114 &-2461674072534405421
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e27191e6167d449b7182f9ce8da5f6, type: 3}
+  m_Name: _CraftingData
+  m_EditorClassIdentifier: 
+  _blueprint:
+  - Item:
+      _value: 8505358
+    Amount: 2
+  _craftAmount: 0
+  _craftDuration: 0
+  _craftLevel: 0
+  _dismantleEfficiency: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4213430bbd6313b4a89ea1d7e1185c38, type: 3}
+  m_Name: Item_Military Pants
+  m_EditorClassIdentifier: 
+  _id: -2864101
+  _parentGroup: {fileID: 11400000, guid: cf5dd5a63069e21458615566eb5d16e7, type: 2}
+  _itemName: Military Pants
+  _icon: {fileID: 21300000, guid: cb679336840ec1349ac9177db32a20e2, type: 3}
+  _description: Basic pants, keeps you warm and comfortable while offering some defense.
+  _longDescription: Basic pants, keeps you warm and comfortable while offering some
+    defense.
+  _pickup: {fileID: 5995184723420080805, guid: 771614685e6f75a4b8e42b2c935c0f1f, type: 3}
+  _stackPickup: {fileID: 0}
+  _weight: 0.35
+  _stackSize: 1
+  _tag:
+    _value: -6432735
+  _rarity: {fileID: 11400000, guid: 5b78dfb1a8130fe4cab70086731e2ddd, type: 2}
+  _actions: []
+  _properties: []
+  _data:
+  - {fileID: -2461674072534405421}
+  - {fileID: -9067459590767015132}

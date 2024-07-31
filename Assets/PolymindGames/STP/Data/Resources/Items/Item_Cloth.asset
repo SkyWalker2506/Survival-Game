@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4213430bbd6313b4a89ea1d7e1185c38, type: 3}
+  m_Name: Item_Cloth
+  m_EditorClassIdentifier: 
+  _id: 8505358
+  _parentGroup: {fileID: 11400000, guid: 592964ac426c9554ead1f9c3f79e4912, type: 2}
+  _itemName: Cloth
+  _icon: {fileID: 21300000, guid: eca535cbbfc81354cac49973f9aed2dd, type: 3}
+  _description: Commonly found through scavenging.
+  _longDescription: Essential material for crafting versatile and lightweight gear
+    in survival situations. A fundamental resource for enhancing your survival kit.
+  _pickup: {fileID: 1068900714, guid: 081d9403647bd1843bf4c418f5639e6c, type: 3}
+  _stackPickup: {fileID: 0}
+  _weight: 0.4
+  _stackSize: 10
+  _tag:
+    _value: 0
+  _rarity: {fileID: 11400000, guid: 5518a16c9a5a70d4585369c90f14f295, type: 2}
+  _actions: []
+  _properties: []
+  _data:
+  - {fileID: 7412327711800130940}
+  - {fileID: 664326902120682992}
+--- !u!114 &664326902120682992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eaa70749c8cc748b6d39714579ca9e, type: 3}
+  m_Name: _FuelData
+  m_EditorClassIdentifier: 
+  _fuel: {x: 60, y: 75}
+--- !u!114 &7412327711800130940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd16dc59ebd201489154ed01d7c5c80, type: 3}
+  m_Name: _BuildMaterialData
+  m_EditorClassIdentifier: 
+  _buildMaterial:
+    _value: -9290183
+  _materialCount: 1

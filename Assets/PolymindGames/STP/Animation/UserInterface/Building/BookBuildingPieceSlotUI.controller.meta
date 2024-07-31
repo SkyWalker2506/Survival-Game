@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1cda5227609e34a47a54973c1b3fda80
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Animation/UserInterface/Building/BookBuildingPieceSlotUI.controller
+  uploadId: 668098

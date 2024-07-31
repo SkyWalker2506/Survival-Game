@@ -1,4 +1,8 @@
-Shader "Hidden/CTI/Internal-DeferredReflections" {
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_CameraToWorld' with 'unity_CameraToWorld'
+
+Shader "CTI/Internal-DeferredReflections" {
 Properties {
 	_SrcBlend ("", Float) = 1
 	_DstBlend ("", Float) = 1

@@ -1,8 +1,7 @@
 fileFormatVersion: 2
 guid: 7bb9e0160882341dfa7539c64f31f315
-timeCreated: 1509952398
-licenseType: Store
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -10,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/HQFPSTemplate/FiringRange/Models/ConiferBOTD/CTI Runtime Components/Scripts/Editor/CTI_DetailsEnum.cs
+  uploadId: 668098

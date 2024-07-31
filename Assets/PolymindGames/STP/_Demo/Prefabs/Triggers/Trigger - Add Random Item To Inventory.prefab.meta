@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a7775ac57da3e3642b127e366a039ecc
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Triggers/Trigger - Add Random
+    Item To Inventory.prefab
+  uploadId: 668098

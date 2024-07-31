@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-495285140209927569
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e27191e6167d449b7182f9ce8da5f6, type: 3}
+  m_Name: _CraftingData
+  m_EditorClassIdentifier: 
+  _blueprint:
+  - Item:
+      _value: 8505358
+    Amount: 3
+  _craftAmount: 0
+  _craftDuration: 0
+  _craftLevel: 0
+  _dismantleEfficiency: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4213430bbd6313b4a89ea1d7e1185c38, type: 3}
+  m_Name: Item_White T-Shirt
+  m_EditorClassIdentifier: 
+  _id: -2328174
+  _parentGroup: {fileID: 11400000, guid: cf5dd5a63069e21458615566eb5d16e7, type: 2}
+  _itemName: White T-Shirt
+  _icon: {fileID: 21300000, guid: d304c4dd6f63e434eb5868184084a15f, type: 3}
+  _description: 'Basic T-Shirt, can keep you warm and comfortable while offering
+    some defense.
+
+'
+  _longDescription: 
+  _pickup: {fileID: 1648080318101908984, guid: 4933dbb307bfe8e44824c1500e875619, type: 3}
+  _stackPickup: {fileID: 0}
+  _weight: 0.35
+  _stackSize: 1
+  _tag:
+    _value: 8349022
+  _rarity: {fileID: 11400000, guid: 5518a16c9a5a70d4585369c90f14f295, type: 2}
+  _actions: []
+  _properties: []
+  _data:
+  - {fileID: -495285140209927569}
+  - {fileID: 7082268064403252893}
+--- !u!114 &7082268064403252893
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eaa70749c8cc748b6d39714579ca9e, type: 3}
+  m_Name: _FuelData
+  m_EditorClassIdentifier: 
+  _fuel: {x: 65, y: 75}

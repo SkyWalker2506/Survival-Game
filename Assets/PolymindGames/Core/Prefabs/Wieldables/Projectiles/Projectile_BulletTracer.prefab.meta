@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 05faa9ea25e8c074c87b4c6f6ce263c9
+labels:
+- Projectile
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Prefabs/Wieldables/Projectiles/Projectile_BulletTracer.prefab
+  uploadId: 668098

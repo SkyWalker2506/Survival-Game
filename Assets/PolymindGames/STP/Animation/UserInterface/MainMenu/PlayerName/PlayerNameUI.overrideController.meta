@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 438cfaae2aa895e4892e4d40c4b0bf91
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Animation/UserInterface/MainMenu/PlayerName/PlayerNameUI.overrideController
+  uploadId: 668098

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 527027c8baf2f0540be3104a3ec38a99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Visuals/Particles/Muzzle/MuzzleFlashParticle.mat
+  uploadId: 668098

@@ -1,173 +1,144 @@
-﻿//-=-=-=-=-=-=- Copyright (c) Polymind Games, All rights reserved. -=-=-=-=-=-=-//
-using System;
+﻿using UnityEngine.Events;
 using UnityEngine;
+using System;
 
-namespace HQFPSTemplate.Items
+namespace PolymindGames.InventorySystem
 {
-	/// <summary>
-	/// Item Instance
-	/// </summary>
-	[Serializable]
-	public class Item
-	{
-		[NonSerialized]
-		public Message<ItemProperty> PropertyChanged = new Message<ItemProperty>();
+    /// <summary>
+    /// Basic inventory item
+    /// </summary>
+    [Serializable]
+    public sealed class Item : IItem, ISerializationCallbackReceiver
+    {
+        [SerializeField]
+        private int _id;
 
-		[NonSerialized]
-		public Message StackChanged = new Message();
+        [SerializeField]
+        private int _stackCount;
 
-		public ItemInfo Info { get { return ItemDatabase.GetItemById(m_Id); } }
+        [SerializeReference]
+        private ItemProperty[] _properties;
 
-		public int Id { get => m_Id; }
-		public string Name { get { return m_Name; } }
+        private ItemDefinition _definition;
 
-		public int CurrentStackSize
-		{
-			get
-			{
-				return m_CurrentStackSize;
-			}
-			set
-			{
-				int oldStackSize = m_CurrentStackSize;
-				m_CurrentStackSize = value;
+        
+        /// <summary>
+        /// Constructor that requires an item definition.
+        /// </summary>
+        public Item(ItemDefinition itemDef, int count = 1)
+        {
+            if (itemDef == null)
+                throw new NullReferenceException("Cannot create an item from a null item definition.");
 
-				if(m_CurrentStackSize != oldStackSize)
-					StackChanged.Send();
-			}
-		}
+            _definition = itemDef;
+            _id = itemDef.Id;
+            _stackCount = Mathf.Clamp(count, 1, _definition.StackSize);
+            _properties = InstantiateProperties(itemDef.GetPropertyGenerators());
 
-		public ItemProperty[] Properties { get => m_Properties; }
+            // Listen to the property changed callbacks.
+            foreach (var property in _properties)
+                property.Changed += _ => PropertyChanged?.Invoke();
+        }
 
-		[SerializeField]
-		private int m_Id;
+        /// <summary>
+        /// Copy constructor.
+        /// </summary>
+        public Item(IItem item)
+        {
+            _id = item.Id;
+            _definition = item.Definition;
+            _stackCount = item.StackCount;
+            _properties = CloneProperties(item.Properties);
 
-		[SerializeField]
-		private string m_Name;
+            // Listen to the property changed callbacks.
+            foreach (var property in _properties)
+                property.Changed += _ => PropertyChanged?.Invoke();
+        }
 
-		[SerializeField]
-		private int m_CurrentStackSize;
+        /// <summary>
+        /// Copy constructor.
+        /// </summary>
+        public Item(IItem item, int count)
+        {
+            _id = item.Id;
+            _definition = item.Definition;
+            _stackCount = count;
+            _properties = CloneProperties(item.Properties);
 
-		[SerializeField]
-		private ItemProperty[] m_Properties;
+            // Listen to the property changed callbacks.
+            foreach (var property in _properties)
+                property.Changed += _ => PropertyChanged?.Invoke();
+        }
 
+        public ItemDefinition Definition => _definition;
+        public ItemProperty[] Properties => _properties;
+        public string Name => Definition.Name;
+        public int Id => _id;
 
-		public static implicit operator bool(Item item)
-		{
-			return item != null;
-		}
+        public int StackCount
+        {
+            get => _stackCount;
+            set
+            {
+                int oldStack = _stackCount;
+                _stackCount = Mathf.Clamp(value, 0, _definition.StackSize);
 
-		public static Item Create(string name, int count = 1)
-		{
-			ItemInfo itemInfo = null;
+                if (_stackCount == oldStack)
+                    return;
 
-			if(ItemDatabase.Instance != null)
-				itemInfo = ItemDatabase.GetItemByName(name);
-			else
-				Debug.LogWarning("Can't create item with name '" + name + "'. It doesn't exist in the database!");
+                StackCountChanged?.Invoke();
+            }
+        }
 
-			if(itemInfo != null)
-				return new Item(itemInfo, count);
-			else
-				return null;
-		}
+        public float TotalWeight
+        {
+            get
+            {
+                if (_properties == Array.Empty<ItemProperty>())
+                    return Definition.Weight * _stackCount;
 
-		/// <summary>
-		/// 
-		/// </summary>
-		public Item(ItemInfo itemInfo, int count = 1, ItemProperty[] customProperties = null)
-		{
-			m_Id = itemInfo.Id;
-			m_Name = itemInfo.Name;
-		
-			CurrentStackSize = Mathf.Clamp(count, 1, itemInfo.StackSize);
+                float weight = Definition.Weight;
+                foreach (var prop in _properties)
+                {
+                    if (prop.Type == ItemPropertyType.Item && prop.ItemId != 0)
+                        weight += ItemDefinition.GetWithId(prop.ItemId).Weight;
+                }
 
-			if(customProperties != null)
-				m_Properties = CloneProperties(customProperties);
-			else
-				m_Properties = InstantiateProperties(itemInfo.Properties);
+                return weight * _stackCount;
+            }
+        }
 
-			for(int i = 0;i < m_Properties.Length;i++)
-				m_Properties[i].Changed.AddListener(OnPropertyChanged);
-		}
+        public event UnityAction PropertyChanged;
+        public event UnityAction StackCountChanged;
 
-		public bool HasProperty(string name)
-		{
-			for(int i = 0;i < m_Properties.Length;i++)
-			{
-				if(m_Properties[i].Name == name)
-					return true;
-			}
+        public override string ToString() => "Item Name: " + Name + " | Stack Size: " + _stackCount;
 
-			return false;
-		}
+        private ItemProperty[] CloneProperties(ItemProperty[] properties)
+        {
+            var clonedProperties = new ItemProperty[properties.Length];
 
-		/// <summary>
-		/// Use this if you are sure the item has this property.
-		/// </summary>
-		public ItemProperty GetProperty(string name)
-		{
-			ItemProperty itemProperty = null;
+            for (int i = 0; i < properties.Length; i++)
+                clonedProperties[i] = properties[i].Clone();
 
-			for(int i = 0;i < m_Properties.Length;i++)
-			{
-				if(m_Properties[i].Name == name)
-				{
-					itemProperty = m_Properties[i];
-					break;
-				}
-			}
+            return clonedProperties;
+        }
 
-			return itemProperty;
-		}
+        private ItemProperty[] InstantiateProperties(ItemPropertyGenerator[] propertyGenerators)
+        {
+            if (propertyGenerators == null || propertyGenerators.Length == 0)
+                return Array.Empty<ItemProperty>();
 
-		/// <summary>
-		/// Use this if you are NOT sure the item has this property.
-		/// </summary>
-		public bool TryGetProperty(string name, out ItemProperty itemProperty)
-		{
-			itemProperty = null;
+            var properties = new ItemProperty[propertyGenerators.Length];
 
-			for(int i = 0;i < m_Properties.Length;i++)
-			{
-				if(m_Properties[i].Name == name)
-				{
-					itemProperty = m_Properties[i];
-					return true;
-				}
-			}
+            for (int i = 0; i < propertyGenerators.Length; i++)
+                properties[i] = propertyGenerators[i].GenerateItemProperty();
 
-			return false;
-		}
+            return properties;
+        }
 
-		public override string ToString()
-		{
-			return "Item Name: " + m_Name + " | Stack Size: " + m_CurrentStackSize;
-		}
-
-		private ItemProperty[] CloneProperties(ItemProperty[] properties)
-		{
-			ItemProperty[] clonedProperties = new ItemProperty[properties.Length];
-
-			for(int i = 0;i < properties.Length;i++)
-				clonedProperties[i] = properties[i].GetMemberwiseClone();
-
-			return clonedProperties;
-		}
-
-		private ItemProperty[] InstantiateProperties(ItemPropertyInfoList propertyInfos)
-		{
-			ItemProperty[] properties = new ItemProperty[propertyInfos.Length];
-
-			for(int i = 0;i < propertyInfos.Length;i++)
-				properties[i] = new ItemProperty(propertyInfos[i]);
-
-			return properties;
-		}
-
-        private void OnPropertyChanged(ItemProperty itemProperty)
-		{
-			PropertyChanged.Send(itemProperty);
-		}
-	}
+		#region Save & Load
+        void ISerializationCallbackReceiver.OnBeforeSerialize() { }
+        void ISerializationCallbackReceiver.OnAfterDeserialize() => _definition = ItemDefinition.GetWithId(_id);
+		#endregion
+    }
 }

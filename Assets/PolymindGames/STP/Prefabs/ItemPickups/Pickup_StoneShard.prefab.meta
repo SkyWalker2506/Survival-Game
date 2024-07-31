@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 905f11b855621f647be1cec6c3e53cd4
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_StoneShard.prefab
+  uploadId: 668098

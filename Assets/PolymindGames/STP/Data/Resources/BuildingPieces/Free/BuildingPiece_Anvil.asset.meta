@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0df21c1d18d77424dbda4fd04b49263b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/BuildingPieces/Free/BuildingPiece_Anvil.asset
+  uploadId: 668098

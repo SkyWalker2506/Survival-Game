@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: efb9bfd6dd57ce445ab9da7209f6ff91
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/BuildMaterials/BuildMaterial_Stick.asset
+  uploadId: 668098

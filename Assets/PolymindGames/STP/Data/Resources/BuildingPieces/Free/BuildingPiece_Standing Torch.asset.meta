@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 17dbeb395a6e0414f99b78c3d8edd968
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/BuildingPieces/Free/BuildingPiece_Standing
+    Torch.asset
+  uploadId: 668098

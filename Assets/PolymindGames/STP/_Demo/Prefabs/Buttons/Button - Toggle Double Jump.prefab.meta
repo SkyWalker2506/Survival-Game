@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 744ccdbb18687c141bd85cd34cea5250
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Buttons/Button - Toggle Double
+    Jump.prefab
+  uploadId: 668098

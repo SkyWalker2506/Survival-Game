@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 675d24efc5aa58a4d86f69e416e68957
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_WoodenSpear.prefab
+  uploadId: 668098

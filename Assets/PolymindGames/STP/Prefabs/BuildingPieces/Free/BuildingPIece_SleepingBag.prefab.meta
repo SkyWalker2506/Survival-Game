@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6583b44d70c8a294492567b92469a854
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Free/BuildingPIece_SleepingBag.prefab
+  uploadId: 668098

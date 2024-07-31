@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5836f60a61d95f846a8d475c9de22a2a
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Decoration/Fence.prefab
+  uploadId: 668098

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c59bef0fe3dfbe14b807a7b11202eecc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Motion/Mixing/Data/SimpleBobMotionData.cs
+  uploadId: 668098

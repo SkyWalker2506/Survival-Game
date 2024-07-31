@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f28dc90c2a8efa442b5eb285e1558248
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Free/BuildingPIece_StoneCabin.prefab
+  uploadId: 668098

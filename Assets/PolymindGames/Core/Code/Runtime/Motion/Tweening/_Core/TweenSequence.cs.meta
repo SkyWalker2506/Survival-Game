@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2b05269ff2364051b68ce4d01c1a73af
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Motion/Tweening/_Core/TweenSequence.cs
+  uploadId: 668098

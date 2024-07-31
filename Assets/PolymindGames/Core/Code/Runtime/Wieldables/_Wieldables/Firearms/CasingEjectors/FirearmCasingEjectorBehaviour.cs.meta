@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6ce5e2fb71511574483c2f162da1fe8a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 9ba3875419e852a408ef5bb52c193236, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Code/Runtime/Wieldables/_Wieldables/Firearms/CasingEjectors/FirearmCasingEjectorBehaviour.cs
+  uploadId: 668098

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: da5013c059d40964691dc2f83920ca8a
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_WoodenBow.prefab
+  uploadId: 668098

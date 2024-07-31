@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8dbf3095b055fa147b9175bd3fd0c343
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Buttons/Button - Spawn Random
+    Item.prefab
+  uploadId: 668098

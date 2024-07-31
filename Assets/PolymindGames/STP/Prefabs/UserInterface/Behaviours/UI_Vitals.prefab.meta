@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 921893a7ff338f0449042e696f0d2361
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Behaviours/UI_Vitals.prefab
+  uploadId: 668098

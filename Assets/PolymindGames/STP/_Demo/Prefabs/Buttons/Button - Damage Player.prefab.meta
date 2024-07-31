@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d8bf9922713e746458ac9f9fc930a764
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Buttons/Button - Damage Player.prefab
+  uploadId: 668098

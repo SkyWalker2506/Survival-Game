@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5cd45047e8041cf43bc14884328c24a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Scenes/_Shared/LightingSettings.lighting
+  uploadId: 668098

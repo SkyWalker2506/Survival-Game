@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5ed7580d4275e5a4bbfe431fb685bc27
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_30-30 AmmoPack.prefab
+  uploadId: 668098

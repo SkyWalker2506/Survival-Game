@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 39187c0afb1466b4084c2c503ffb3776
+labels:
+- Carriable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Carriables/Pickup_Stone.prefab
+  uploadId: 668098

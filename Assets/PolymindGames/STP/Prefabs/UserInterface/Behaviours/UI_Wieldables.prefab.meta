@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9ba6f72343735414a8092d957ee7d241
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Behaviours/UI_Wieldables.prefab
+  uploadId: 668098

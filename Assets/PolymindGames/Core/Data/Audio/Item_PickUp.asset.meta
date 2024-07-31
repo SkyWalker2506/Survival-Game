@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b029094a766756c44afe4d43345aaa25
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/Audio/Item_PickUp.asset
+  uploadId: 668098

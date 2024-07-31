@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f0bb22239cb420644b078261aabb527c
+labels:
+- Casing
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Casings/Casing_30-30.prefab
+  uploadId: 668098

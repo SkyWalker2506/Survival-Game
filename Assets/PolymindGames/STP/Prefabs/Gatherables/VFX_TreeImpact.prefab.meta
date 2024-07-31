@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7cfaddc467ae8674e9bd8493cf8a15c5
+labels:
+- Effect
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Gatherables/VFX_TreeImpact.prefab
+  uploadId: 668098

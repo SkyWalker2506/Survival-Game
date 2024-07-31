@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 438a1849fe4ceec47a3459adb2b5e6a7
+labels:
+- Projectile
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/Wieldables/Projectiles/Projectile_WoodenSpear.prefab
+  uploadId: 668098

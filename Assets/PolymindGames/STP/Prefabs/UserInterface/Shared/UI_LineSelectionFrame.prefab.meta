@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 52747f7e1dad74a4c9b5e0a7327a4f65
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Shared/UI_LineSelectionFrame.prefab
+  uploadId: 668098

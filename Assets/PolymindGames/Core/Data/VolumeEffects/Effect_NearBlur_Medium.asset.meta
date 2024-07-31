@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d20123f537cbd534da01708b0fd849e5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/VolumeEffects/Effect_NearBlur_Medium.asset
+  uploadId: 668098

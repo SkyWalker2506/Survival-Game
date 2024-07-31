@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6798cb8e301fc04aa8fa45334551381
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/Motion/Noise/Noise_Aim.asset
+  uploadId: 668098

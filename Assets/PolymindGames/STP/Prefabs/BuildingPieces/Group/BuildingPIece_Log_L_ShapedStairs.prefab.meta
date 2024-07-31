@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 469abc27fafc70a419ac9aed52ef21ba
+labels:
+- Buildable
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/BuildingPieces/Group/BuildingPIece_Log_L_ShapedStairs.prefab
+  uploadId: 668098

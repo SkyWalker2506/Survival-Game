@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 20566fdba0e96544ca1d6a781b0c928a
+labels:
+- Prop
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Rocks/Rock01.prefab
+  uploadId: 668098

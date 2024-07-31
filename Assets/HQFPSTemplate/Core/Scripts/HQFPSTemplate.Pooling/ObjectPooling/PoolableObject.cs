@@ -1,40 +1,69 @@
-﻿//-=-=-=-=-=-=- Copyright (c) Polymind Games, All rights reserved. -=-=-=-=-=-=-//
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 
-namespace HQFPSTemplate.Pooling
+namespace PolymindGames.PoolingSystem
 {
-    public class PoolableObject : MonoBehaviour
+    public sealed class PoolableObject : MonoBehaviour
     {
-        public string PoolId { get => m_PoolId; }
+        [SerializeField, Range(0f, 1000f), BeginGroup, EndGroup]
+        [Tooltip("The time it takes for this object to return to the pool or self-destruct if it's not part of one.")]
+        private float _autoReleaseDelay = 10f;
 
-        public UnityEvent OnReleasedEvent = new UnityEvent();
-        public UnityEvent OnUseEvent = new UnityEvent();
+        private Component _cachedComponent;
+        private ObjectPool _parentPool;
+        private float _releaseTimer;
 
-        private bool m_Initialized;
-        private string m_PoolId;
-
-
-        public void Init(string poolId)
+        
+        public float AutoReleaseDelay
         {
-            if(m_Initialized)
+            get => _autoReleaseDelay;
+            set
+            {
+                _autoReleaseDelay = value;
+                _releaseTimer = Time.fixedTime + value;
+            }
+        }
+
+        internal void Init<T>(ObjectPool pool) where T : Component
+        {
+            if (_parentPool != null)
             {
                 Debug.LogError("You are attempting to initialize a poolable object, but it's already initialized!!");
                 return;
             }
 
-            m_PoolId = poolId;
-            m_Initialized = true;
+            _parentPool = pool;
+            _cachedComponent = GetComponent<T>();
         }
 
-        public void OnUse()
+        internal T GetCachedComponent<T>() where T : Component
         {
-            OnUseEvent.Invoke();
+            return (T)_cachedComponent;
         }
 
-        public void OnReleased()
+        public void ResetReleaseDelay() => _releaseTimer = Time.fixedTime + _autoReleaseDelay;
+
+        /// <summary>
+        /// Release the object after a delay.
+        /// </summary>
+        public void ReleaseObject(float delay) => _releaseTimer = Time.fixedTime + delay;
+
+        /// <summary>
+        /// Send the object back to the pool or destroy it if it's not part of one.
+        /// </summary>
+        public void ReleaseObject()
         {
-            OnReleasedEvent.Invoke();
+            if (_parentPool != null)
+                _parentPool.ReleaseInstance(this);
+            else
+                Destroy(gameObject);
+        }
+
+        private void OnEnable() => _releaseTimer = Time.fixedTime + _autoReleaseDelay;
+
+        private void FixedUpdate()
+        {
+            if (_releaseTimer < Time.fixedTime)
+                ReleaseObject();
         }
     }
 }

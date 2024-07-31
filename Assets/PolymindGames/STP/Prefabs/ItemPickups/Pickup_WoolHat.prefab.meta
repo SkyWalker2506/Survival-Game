@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4f9116e93530c5a4699ad30c1a8c5784
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_WoolHat.prefab
+  uploadId: 668098

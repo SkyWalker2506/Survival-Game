@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1142ae1b514ea6742827ac13ba4a5c98
+labels:
+- Pickup
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/ItemPickups/Pickup_Red T-Shirt.prefab
+  uploadId: 668098

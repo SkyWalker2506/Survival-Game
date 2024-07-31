@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8c728cc5d3a165243a2587c02ec995f3
+labels:
+- Gameplay
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/_Demo/Prefabs/Buttons/Button - Teleport Player.prefab
+  uploadId: 668098

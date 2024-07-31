@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 12b46adce569edd4b9639ad76ed9dc07
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Shared/UI_BoxSelectionFrame.prefab
+  uploadId: 668098

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 775eaad5c80bd8a48b851ed78d4d9349
+labels:
+- Ui
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Prefabs/UserInterface/Shared/UI_BoxTab.prefab
+  uploadId: 668098

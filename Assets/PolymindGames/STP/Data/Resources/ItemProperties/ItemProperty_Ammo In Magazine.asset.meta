@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d86ab291bc81ec04095cd86009f58c29
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/STP/Data/Resources/ItemProperties/ItemProperty_Ammo
+    In Magazine.asset
+  uploadId: 668098

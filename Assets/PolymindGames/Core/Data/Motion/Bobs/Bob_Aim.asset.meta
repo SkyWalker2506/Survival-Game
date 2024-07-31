@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d952b6dfe869d24abbcc3c561a10f37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207954
+  packageName: (STP) Survival Template PRO
+  packageVersion: 1.4.0.1
+  assetPath: Assets/PolymindGames/Core/Data/Motion/Bobs/Bob_Aim.asset
+  uploadId: 668098
